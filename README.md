@@ -42,7 +42,7 @@ The reasons of using tokend listed below
 
 To build a Tokend project using xcodebuild way is easy, Pl. look at the command below
 
-xcodebuild -configuration Debug -arch x86_64 build
+xcodebuild -configuration Debug -arch x86 _ 64 build
 
 a few make error would happend while building at Mac OS 10.8.3, but they're all easy to fix.
 Using darwinbuild to build the project is troublesome, I give up that way.

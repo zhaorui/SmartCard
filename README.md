@@ -4,7 +4,7 @@ SmartCard
 All the experince  of mine in SmartCard area 
 
 How to use pcscd to debug smartcard
-=========
+---------
 pcscd  is  the  daemon  program  for  pcsc-lite  and  musclecard framework. It is a
 resource manager that coordinates communications with smart-card readers and  smart
 cards and cryptographic tokens that are connected to the system.
@@ -23,7 +23,7 @@ arch -i386 pcscd -f -d -a | egrep "APDU|SW"
 
 
 How to build the Tokend in Mac
-=========
+---------
 1. Whatis TokenD?
 2. What's the use of Tokend? (What's are the benefits of Using Tokend )
 3. How can I build it?
@@ -48,20 +48,20 @@ a few make error would happend while building at Mac OS 10.8.3, but they're all 
 Using darwinbuild to build the project is troublesome, I give up that way.
 
 Useful website to begin smartcard development
-=========
-Explaining U.S. Government Smart Cards
-http://community.centrify.com/t5/The-Centrify-Apple-Guys/Explaining-U-S-Government-Smart-Cards/ba-p/11654
+---------
+[Explaining U.S. Government Smart Cards]
+(http://community.centrify.com/t5/The-Centrify-Apple-Guys/Explaining-U-S-Government-Smart-Cards/ba-p/11654)
 
-Smartcard service official site
-https://smartcardservices.macosforge.org
+[Smartcard service official site]
+(https://smartcardservices.macosforge.org)
 
-Basic Knowledgement of smartcard site
-http://www.cardwerk.com
+[Basic Knowledgement of smartcard site]
+(http://www.cardwerk.com)
 
-Apple Open Souce of TokenD
-http://opensource.apple.com/tarballs/Tokend/
+[Apple Open Souce of TokenD]
+(http://opensource.apple.com/tarballs/Tokend/)
 
-Inter-network of caterpilla about Build CACNG
-https://caterpillar.centrify.com/cims/Building_Tokend_for_Mac?highlight=%28build%29%7C%28tokend%29
+[Inter-network of caterpilla about Build CACNG]
+(https://caterpillar.centrify.com/cims/Building_Tokend_for_Mac?highlight=%28build%29%7C%28tokend%29)
 
 

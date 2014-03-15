@@ -16,10 +16,11 @@ pcscd also would be stared when connecting the smartcard reader to computer.
 Before use pcscd to debug, we need to close the running "pcscd -f" process first.
 Then run command below to get a detailed APDU log to the terminal.
 
-arch -i386 pcscd -f -d -a
+    arch -i386 pcscd -f -d -a
 
 To filter the APDU log from the detailed log, we should run command below
-arch -i386 pcscd -f -d -a | egrep "APDU|SW"
+    
+    arch -i386 pcscd -f -d -a | egrep "APDU|SW"
 
 
 How to build the Tokend in Mac
@@ -42,7 +43,7 @@ The reasons of using tokend listed below
 
 To build a Tokend project using xcodebuild way is easy, Pl. look at the command below
 
-xcodebuild -configuration Debug -arch x86 _ 64 build
+    xcodebuild -configuration Debug -arch x86 _ 64 build
 
 a few make error would happend while building at Mac OS 10.8.3, but they're all easy to fix.
 Using darwinbuild to build the project is troublesome, I give up that way.
